@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strategy-implementation-roadmap"
+version = "0.1.0"
+description = "Implementation-planning toolkit for a milestone-gated market-entry pilot: workstream decomposition, RACI, phased timeline with go/no-go gates, risk register, stakeholder communications, and case-team staffing/mentorship planning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "rxj0102" }]
+dependencies = [
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=7.4", "jupyter>=1.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
