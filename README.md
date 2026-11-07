@@ -1,5 +1,7 @@
 # strategy-implementation-roadmap
 
+[![CI](https://github.com/rxj0102/strategy-implementation-roadmap/actions/workflows/ci.yml/badge.svg)](https://github.com/rxj0102/strategy-implementation-roadmap/actions/workflows/ci.yml)
+
 An implementation-planning toolkit built the way a real consulting team's
 *second* deliverable looks — not another market analysis, but the plan for
 operationalizing a recommendation that's already been approved.
